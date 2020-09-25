@@ -1,4 +1,5 @@
-# Lupine: Linux in Unikernel Clothes
+# Transform Dockerfile to Unikernel using Lupine-Linux
+# Build a unikernel using a Dockerfile
 
 **[Original project repository](https://github.com/hckuo/Lupine-Linux)**
 
@@ -26,7 +27,7 @@ Clone project:
 Update submodule (takes time):
 `git submodule update --init`
 
-Dockerfile ->  
+Dockerfile -> unikernel
 `cd example && ./prepare.sh`
 
 Test server with:
@@ -55,3 +56,7 @@ KVM enabled.
 Installed and running docker.
 
 Tested on AMD x86_64 system.
+
+
+## Similar projects
+microVM from firecracker
