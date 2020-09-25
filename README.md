@@ -27,10 +27,10 @@ Update submodule (takes time):
 `git submodule update --init`
 
 Dockerfile ->  
- cd example && ./prepare.sh
+`cd example && ./prepare.sh`
 
 Test server with:
- curl 192.168.100.2
+`curl 192.168.100.2`
 
 Enjoy :)
 
@@ -45,7 +45,6 @@ example/
    |-- guest_init.sh (calls guest_dev.sh and guest_net.sh which are copied into rootfs later)
    `-- index.html (a message)
 ```
-
 
 
 ## Requirements
